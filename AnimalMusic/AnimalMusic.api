@@ -1,23 +1,15 @@
-
 syntax = "v1"
 
-info(
-	title: "Greet API",
-	desc: "A simple greet API",
-	version: "1.0.0"
-)
-
-type (
-	Request {
-		Name string `json:"name,optional"`
-	}
-
-	Response {
-		Message string `json:"message"`
-	}
-)
-
-service greet {
-	@handler Greet
-	post /greet (Request) returns (Response)
+type Request {
+	Name string `path:"name,options=you|me"`
 }
+
+type Response {
+	Message string `json:"message"`
+}
+
+service AnimalMusic-api {
+	@handler AnimalMusicHandler
+	get /from/:name (Request) returns (Response)
+}
+
