@@ -6,7 +6,7 @@ package handler
 import (
 	"net/http"
 
-	"AnimalMusic/internal/svc"
+	"user_rpc/internal/svc"
 
 	"github.com/zeromicro/go-zero/rest"
 )
@@ -17,7 +17,7 @@ func RegisterHandlers(server *rest.Server, serverCtx *svc.ServiceContext) {
 			{
 				Method:  http.MethodGet,
 				Path:    "/from/:name",
-				Handler: AnimalMusicHandler(serverCtx),
+				Handler: User_rpcHandler(serverCtx),
 			},
 		},
 	)

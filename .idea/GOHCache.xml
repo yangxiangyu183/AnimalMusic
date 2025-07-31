@@ -1,6 +1,281 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="AnimalMusicLogic">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/logic/animalmusiclogic.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="BaseResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/types/types.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Config">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="JWTConf">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="LoginResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/types/types.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PhoneLoginLogic">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/logic/phoneloginlogic.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PhoneLoginRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/types/types.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RedisConf">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Request">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/types/types.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Response">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/types/types.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SendVerifyCodeLogic">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/logic/sendverifycodelogic.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SendVerifyCodeRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/types/types.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ServiceContext">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/svc/servicecontext.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserInfo">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/types/types.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserRegisterLogic">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/logic/userregisterlogic.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserRegisterRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/types/types.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/AnimalMusic/animalmusic.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753865680582" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/AnimalMusic/internal/config/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753876096224" />
+              <option name="schema">
+                <list>
+                  <option value="Config" />
+                  <option value="RedisConf" />
+                  <option value="JWTConf" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/AnimalMusic/internal/handler/animalmusichandler.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753865680600" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/AnimalMusic/internal/handler/phoneloginhandler.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753876096460" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/AnimalMusic/internal/handler/routes.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753876096224" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/AnimalMusic/internal/handler/sendverifycodehandler.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753876096476" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/AnimalMusic/internal/handler/userregisterhandler.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753876096476" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/AnimalMusic/internal/logic/animalmusiclogic.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753865680604" />
+              <option name="schema">
+                <list>
+                  <option value="AnimalMusicLogic" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/AnimalMusic/internal/logic/phoneloginlogic.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753876096277" />
+              <option name="schema">
+                <list>
+                  <option value="PhoneLoginLogic" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/AnimalMusic/internal/logic/sendverifycodelogic.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753884013999" />
+              <option name="schema">
+                <list>
+                  <option value="SendVerifyCodeLogic" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/AnimalMusic/internal/logic/userregisterlogic.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753876096317" />
+              <option name="schema">
+                <list>
+                  <option value="UserRegisterLogic" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/AnimalMusic/internal/svc/servicecontext.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753876096224" />
+              <option name="schema">
+                <list>
+                  <option value="ServiceContext" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/AnimalMusic/internal/types/types.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753876096224" />
+              <option name="schema">
+                <list>
+                  <option value="BaseResponse" />
+                  <option value="PhoneLoginRequest" />
+                  <option value="LoginResponse" />
+                  <option value="UserInfo" />
+                  <option value="SendVerifyCodeRequest" />
+                  <option value="UserRegisterRequest" />
+                  <option value="Request" />
+                  <option value="Response" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="animal_music_logic" value="AnimalMusicLogic" />
+        <entry key="base_response" value="BaseResponse" />
+        <entry key="config" value="Config" />
+        <entry key="jwt_conf" value="JWTConf" />
+        <entry key="login_response" value="LoginResponse" />
+        <entry key="phone_login_logic" value="PhoneLoginLogic" />
+        <entry key="phone_login_request" value="PhoneLoginRequest" />
+        <entry key="redis_conf" value="RedisConf" />
+        <entry key="request" value="Request" />
+        <entry key="response" value="Response" />
+        <entry key="send_verify_code_logic" value="SendVerifyCodeLogic" />
+        <entry key="send_verify_code_request" value="SendVerifyCodeRequest" />
+        <entry key="service_context" value="ServiceContext" />
+        <entry key="user_info" value="UserInfo" />
+        <entry key="user_register_logic" value="UserRegisterLogic" />
+        <entry key="user_register_request" value="UserRegisterRequest" />
+      </map>
+    </option>
     <option name="lastTimeChecked" value="1753864910885" />
   </component>
 </project>

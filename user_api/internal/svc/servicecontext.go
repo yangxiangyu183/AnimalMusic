@@ -1,7 +1,7 @@
 package svc
 
 import (
-	"AnimalMusic/internal/config"
+	"user_api/internal/config"
 )
 
 type ServiceContext struct {

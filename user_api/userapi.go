@@ -4,15 +4,15 @@ import (
 	"flag"
 	"fmt"
 
-	"AnimalMusic/internal/config"
-	"AnimalMusic/internal/handler"
-	"AnimalMusic/internal/svc"
+	"user_api/internal/config"
+	"user_api/internal/handler"
+	"user_api/internal/svc"
 
 	"github.com/zeromicro/go-zero/core/conf"
 	"github.com/zeromicro/go-zero/rest"
 )
 
-var configFile = flag.String("f", "etc/animalmusic-api.yaml", "the config file")
+var configFile = flag.String("f", "etc/userapi-api.yaml", "the config file")
 
 func main() {
 	flag.Parse()

@@ -3,13 +3,13 @@ package handler
 import (
 	"net/http"
 
-	"AnimalMusic/internal/logic"
-	"AnimalMusic/internal/svc"
-	"AnimalMusic/internal/types"
 	"github.com/zeromicro/go-zero/rest/httpx"
+	"user_rpc/internal/logic"
+	"user_rpc/internal/svc"
+	"user_rpc/internal/types"
 )
 
-func AnimalMusicHandler(svcCtx *svc.ServiceContext) http.HandlerFunc {
+func User_rpcHandler(svcCtx *svc.ServiceContext) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		var req types.Request
 		if err := httpx.Parse(r, &req); err != nil {
@@ -17,8 +17,8 @@ func AnimalMusicHandler(svcCtx *svc.ServiceContext) http.HandlerFunc {
 			return
 		}
 
-		l := logic.NewAnimalMusicLogic(r.Context(), svcCtx)
-		resp, err := l.AnimalMusic(&req)
+		l := logic.NewUser_rpcLogic(r.Context(), svcCtx)
+		resp, err := l.User_rpc(&req)
 		if err != nil {
 			httpx.ErrorCtx(r.Context(), w, err)
 		} else {

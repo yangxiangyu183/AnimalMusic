@@ -8,8 +8,8 @@ type Response {
 	Message string `json:"message"`
 }
 
-service AnimalMusic-api {
-	@handler AnimalMusicHandler
+service user_api-api {
+	@handler User_apiHandler
 	get /from/:name (Request) returns (Response)
 }
 
