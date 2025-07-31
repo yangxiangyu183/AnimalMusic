@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package music_service;
+option go_package="./music_service";
+
+//短信发送
+message SendSmsRequest {
+  string Account = 1;
+  string Source = 2;
+}
+
+message SendSmsResponse {
+
+}
+//登录注册
+message LoginRequest {
+  string Account = 1;
+  string SendSms = 2;
+}
+
+message LoginResponse {
+  int64 UserId=1;
+}
+service Music_service {
+  rpc SendSms(SendSmsRequest) returns(SendSmsResponse);
+  rpc Login(LoginRequest) returns(LoginResponse);
+}

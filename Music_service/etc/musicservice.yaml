@@ -1,0 +1,6 @@
+Name: musicservice.rpc
+ListenOn: 0.0.0.0:1234
+Etcd:
+  Hosts:
+  - 127.0.0.1:2379
+  Key: musicservice.rpc

@@ -1,0 +1,6 @@
+go 1.24
+
+use (
+	./Music_api
+	./Music_service
+)

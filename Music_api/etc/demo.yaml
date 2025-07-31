@@ -1,0 +1,10 @@
+Name: Demo
+Host: 0.0.0.0
+Port: 8888
+Music_service:
+  Etcd:
+    Hosts:
+      - 127.0.0.1:2379
+    Key: musicservice.rpc
+MaxBytes: 104857600
+Timeout: 300000

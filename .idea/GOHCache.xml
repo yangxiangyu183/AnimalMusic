@@ -3,115 +3,194 @@
   <component name="GoORMHelperCache">
     <option name="schemaMapping">
       <map>
-        <entry key="AnimalMusicLogic">
+        <entry key="AuthTemplateMiddleware">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/logic/animalmusiclogic.go" />
-            </set>
-          </value>
-        </entry>
-        <entry key="BaseResponse">
-          <value>
-            <set>
-              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/types/types.go" />
+              <option value="file://$PROJECT_DIR$/Music_api/internal/middleware/authtemplatemiddleware.go" />
             </set>
           </value>
         </entry>
         <entry key="Config">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/config/config.go" />
+              <option value="file://$PROJECT_DIR$/Music_api/internal/config/config.go" />
+              <option value="file://$PROJECT_DIR$/Music_service/internal/config/config.go" />
+              <option value="file://$PROJECT_DIR$/user_api/internal/config/config.go" />
+              <option value="file://$PROJECT_DIR$/user_rpc/internal/config/config.go" />
             </set>
           </value>
         </entry>
-        <entry key="JWTConf">
+        <entry key="HellLogic">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/config/config.go" />
+              <option value="file://$PROJECT_DIR$/Music_api/internal/logic/hello/helllogic.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="HelloReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/Music_api/internal/types/types.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="HelloResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/Music_api/internal/types/types.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="LoginLogic">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/Music_service/internal/logic/loginlogic.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="LoginRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/Music_service/music_service/music_service.pb.go" />
             </set>
           </value>
         </entry>
         <entry key="LoginResponse">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/types/types.go" />
+              <option value="file://$PROJECT_DIR$/Music_service/music_service/music_service.pb.go" />
             </set>
           </value>
         </entry>
-        <entry key="PhoneLoginLogic">
+        <entry key="MusicServiceServer">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/logic/phoneloginlogic.go" />
+              <option value="file://$PROJECT_DIR$/Music_service/internal/server/musicserviceserver.go" />
             </set>
           </value>
         </entry>
-        <entry key="PhoneLoginRequest">
+        <entry key="Nacos">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/types/types.go" />
+              <option value="file://$PROJECT_DIR$/Music_api/appconfig/config.go" />
             </set>
           </value>
         </entry>
-        <entry key="RedisConf">
+        <entry key="PingLogic">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/config/config.go" />
+              <option value="file://$PROJECT_DIR$/Music_api/internal/logic/pinglogic.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PingReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/Music_api/internal/types/types.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PingResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/Music_api/internal/types/types.go" />
             </set>
           </value>
         </entry>
         <entry key="Request">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/types/types.go" />
+              <option value="file://$PROJECT_DIR$/user_api/internal/types/types.go" />
+              <option value="file://$PROJECT_DIR$/user_rpc/internal/types/types.go" />
             </set>
           </value>
         </entry>
         <entry key="Response">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/types/types.go" />
+              <option value="file://$PROJECT_DIR$/Music_api/internal/types/types.go" />
+              <option value="file://$PROJECT_DIR$/user_api/internal/types/types.go" />
+              <option value="file://$PROJECT_DIR$/user_rpc/internal/types/types.go" />
             </set>
           </value>
         </entry>
-        <entry key="SendVerifyCodeLogic">
+        <entry key="SendSmsLogic">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/logic/sendverifycodelogic.go" />
+              <option value="file://$PROJECT_DIR$/Music_service/internal/logic/sendsmslogic.go" />
             </set>
           </value>
         </entry>
-        <entry key="SendVerifyCodeRequest">
+        <entry key="SendSmsRequest">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/types/types.go" />
+              <option value="file://$PROJECT_DIR$/Music_service/music_service/music_service.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SendSmsResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/Music_service/music_service/music_service.pb.go" />
             </set>
           </value>
         </entry>
         <entry key="ServiceContext">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/svc/servicecontext.go" />
+              <option value="file://$PROJECT_DIR$/Music_api/internal/svc/servicecontext.go" />
+              <option value="file://$PROJECT_DIR$/Music_service/internal/svc/servicecontext.go" />
+              <option value="file://$PROJECT_DIR$/user_api/internal/svc/servicecontext.go" />
+              <option value="file://$PROJECT_DIR$/user_rpc/internal/svc/servicecontext.go" />
             </set>
           </value>
         </entry>
-        <entry key="UserInfo">
+        <entry key="UnimplementedMusicServiceServer">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/types/types.go" />
+              <option value="file://$PROJECT_DIR$/Music_service/music_service/music_service_grpc.pb.go" />
             </set>
           </value>
         </entry>
-        <entry key="UserRegisterLogic">
+        <entry key="User_apiLogic">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/logic/userregisterlogic.go" />
+              <option value="file://$PROJECT_DIR$/user_api/internal/logic/userapilogic.go" />
             </set>
           </value>
         </entry>
-        <entry key="UserRegisterRequest">
+        <entry key="User_rpcLogic">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/AnimalMusic/internal/types/types.go" />
+              <option value="file://$PROJECT_DIR$/user_rpc/internal/logic/userrpclogic.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ViperData">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/Music_api/appconfig/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="defaultMusicService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/Music_service/musicserviceclient/musicservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="musicServiceClient">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/Music_service/music_service/music_service_grpc.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="x">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/Music_service/music_service/music_service.pb.go" />
             </set>
           </value>
         </entry>
@@ -119,114 +198,99 @@
     </option>
     <option name="scannedPathMapping">
       <map>
-        <entry key="file://$PROJECT_DIR$/AnimalMusic/animalmusic.go">
+        <entry key="file://$PROJECT_DIR$/Music_api/appconfig/config.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1753865680582" />
+              <option name="lastModified" value="1753969998640" />
+              <option name="schema">
+                <list>
+                  <option value="ViperData" />
+                  <option value="Nacos" />
+                </list>
+              </option>
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/AnimalMusic/internal/config/config.go">
+        <entry key="file://$PROJECT_DIR$/Music_api/demo.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1753876096224" />
+              <option name="lastModified" value="1753971250690" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/Music_api/internal/config/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753971017873" />
               <option name="schema">
                 <list>
                   <option value="Config" />
-                  <option value="RedisConf" />
-                  <option value="JWTConf" />
                 </list>
               </option>
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/AnimalMusic/internal/handler/animalmusichandler.go">
+        <entry key="file://$PROJECT_DIR$/Music_api/internal/handler/hello/hellhandler.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1753865680600" />
+              <option name="lastModified" value="1753966830431" />
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/AnimalMusic/internal/handler/phoneloginhandler.go">
+        <entry key="file://$PROJECT_DIR$/Music_api/internal/handler/pinghandler.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1753876096460" />
+              <option name="lastModified" value="1753966830430" />
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/AnimalMusic/internal/handler/routes.go">
+        <entry key="file://$PROJECT_DIR$/Music_api/internal/handler/routes.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1753876096224" />
+              <option name="lastModified" value="1753966830430" />
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/AnimalMusic/internal/handler/sendverifycodehandler.go">
+        <entry key="file://$PROJECT_DIR$/Music_api/internal/logic/hello/helllogic.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1753876096476" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/AnimalMusic/internal/handler/userregisterhandler.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1753876096476" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/AnimalMusic/internal/logic/animalmusiclogic.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1753865680604" />
+              <option name="lastModified" value="1753966830433" />
               <option name="schema">
                 <list>
-                  <option value="AnimalMusicLogic" />
+                  <option value="HellLogic" />
                 </list>
               </option>
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/AnimalMusic/internal/logic/phoneloginlogic.go">
+        <entry key="file://$PROJECT_DIR$/Music_api/internal/logic/pinglogic.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1753876096277" />
+              <option name="lastModified" value="1753966830432" />
               <option name="schema">
                 <list>
-                  <option value="PhoneLoginLogic" />
+                  <option value="PingLogic" />
                 </list>
               </option>
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/AnimalMusic/internal/logic/sendverifycodelogic.go">
+        <entry key="file://$PROJECT_DIR$/Music_api/internal/middleware/authtemplatemiddleware.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1753884013999" />
+              <option name="lastModified" value="1753966830433" />
               <option name="schema">
                 <list>
-                  <option value="SendVerifyCodeLogic" />
+                  <option value="AuthTemplateMiddleware" />
                 </list>
               </option>
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/AnimalMusic/internal/logic/userregisterlogic.go">
+        <entry key="file://$PROJECT_DIR$/Music_api/internal/svc/servicecontext.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1753876096317" />
-              <option name="schema">
-                <list>
-                  <option value="UserRegisterLogic" />
-                </list>
-              </option>
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/AnimalMusic/internal/svc/servicecontext.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1753876096224" />
+              <option name="lastModified" value="1753971209398" />
               <option name="schema">
                 <list>
                   <option value="ServiceContext" />
@@ -235,18 +299,221 @@
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/AnimalMusic/internal/types/types.go">
+        <entry key="file://$PROJECT_DIR$/Music_api/internal/types/types.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1753876096224" />
+              <option name="lastModified" value="1753966830427" />
               <option name="schema">
                 <list>
-                  <option value="BaseResponse" />
-                  <option value="PhoneLoginRequest" />
+                  <option value="HelloReq" />
+                  <option value="HelloResp" />
+                  <option value="PingReq" />
+                  <option value="PingResp" />
+                  <option value="Response" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/Music_api/music_api.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753964341559" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/Music_service/global/global.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753970431628" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/Music_service/inits/init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753972362376" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/Music_service/internal/config/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753967663533" />
+              <option name="schema">
+                <list>
+                  <option value="Config" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/Music_service/internal/logic/loginlogic.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753967663534" />
+              <option name="schema">
+                <list>
+                  <option value="LoginLogic" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/Music_service/internal/logic/sendsmslogic.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753967663534" />
+              <option name="schema">
+                <list>
+                  <option value="SendSmsLogic" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/Music_service/internal/server/musicserviceserver.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753967663534" />
+              <option name="schema">
+                <list>
+                  <option value="MusicServiceServer" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/Music_service/internal/svc/servicecontext.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753967663533" />
+              <option name="schema">
+                <list>
+                  <option value="ServiceContext" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/Music_service/music_service/music_service.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753967663529" />
+              <option name="schema">
+                <list>
+                  <option value="SendSmsRequest" />
+                  <option value="SendSmsResponse" />
+                  <option value="LoginRequest" />
                   <option value="LoginResponse" />
-                  <option value="UserInfo" />
-                  <option value="SendVerifyCodeRequest" />
-                  <option value="UserRegisterRequest" />
+                  <option value="x" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/Music_service/music_service/music_service_grpc.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753967663529" />
+              <option name="schema">
+                <list>
+                  <option value="musicServiceClient" />
+                  <option value="UnimplementedMusicServiceServer" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/Music_service/musicservice.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753970816324" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/Music_service/musicserviceclient/musicservice.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753967663536" />
+              <option name="schema">
+                <list>
+                  <option value="defaultMusicService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/Music_service/pkg/SendSms.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753970007809" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/Music_service/pkg/pay.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753968310426" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/user_api/internal/config/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753947737453" />
+              <option name="schema">
+                <list>
+                  <option value="Config" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/user_api/internal/handler/routes.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753947737454" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/user_api/internal/handler/userapihandler.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753947737454" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/user_api/internal/logic/userapilogic.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753947737454" />
+              <option name="schema">
+                <list>
+                  <option value="User_apiLogic" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/user_api/internal/svc/servicecontext.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753947737454" />
+              <option name="schema">
+                <list>
+                  <option value="ServiceContext" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/user_api/internal/types/types.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753947737455" />
+              <option name="schema">
+                <list>
                   <option value="Request" />
                   <option value="Response" />
                 </list>
@@ -254,28 +521,115 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/user_api/userapi.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753947737455" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/user_rpc/internal/config/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753947737456" />
+              <option name="schema">
+                <list>
+                  <option value="Config" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/user_rpc/internal/handler/routes.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753947737456" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/user_rpc/internal/handler/userrpchandler.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753947737457" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/user_rpc/internal/logic/userrpclogic.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753947737457" />
+              <option name="schema">
+                <list>
+                  <option value="User_rpcLogic" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/user_rpc/internal/svc/servicecontext.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753947737457" />
+              <option name="schema">
+                <list>
+                  <option value="ServiceContext" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/user_rpc/internal/types/types.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753947737457" />
+              <option name="schema">
+                <list>
+                  <option value="Request" />
+                  <option value="Response" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/user_rpc/userrpc.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753947737458" />
+            </ScannedPath>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="tableStructMapping">
       <map>
-        <entry key="animal_music_logic" value="AnimalMusicLogic" />
-        <entry key="base_response" value="BaseResponse" />
+        <entry key="auth_template_middleware" value="AuthTemplateMiddleware" />
         <entry key="config" value="Config" />
-        <entry key="jwt_conf" value="JWTConf" />
+        <entry key="default_music_service" value="defaultMusicService" />
+        <entry key="hell_logic" value="HellLogic" />
+        <entry key="hello_req" value="HelloReq" />
+        <entry key="hello_resp" value="HelloResp" />
+        <entry key="login_logic" value="LoginLogic" />
+        <entry key="login_request" value="LoginRequest" />
         <entry key="login_response" value="LoginResponse" />
-        <entry key="phone_login_logic" value="PhoneLoginLogic" />
-        <entry key="phone_login_request" value="PhoneLoginRequest" />
-        <entry key="redis_conf" value="RedisConf" />
+        <entry key="music_service_client" value="musicServiceClient" />
+        <entry key="music_service_server" value="MusicServiceServer" />
+        <entry key="nacos" value="Nacos" />
+        <entry key="ping_logic" value="PingLogic" />
+        <entry key="ping_req" value="PingReq" />
+        <entry key="ping_resp" value="PingResp" />
         <entry key="request" value="Request" />
         <entry key="response" value="Response" />
-        <entry key="send_verify_code_logic" value="SendVerifyCodeLogic" />
-        <entry key="send_verify_code_request" value="SendVerifyCodeRequest" />
+        <entry key="send_sms_logic" value="SendSmsLogic" />
+        <entry key="send_sms_request" value="SendSmsRequest" />
+        <entry key="send_sms_response" value="SendSmsResponse" />
         <entry key="service_context" value="ServiceContext" />
-        <entry key="user_info" value="UserInfo" />
-        <entry key="user_register_logic" value="UserRegisterLogic" />
-        <entry key="user_register_request" value="UserRegisterRequest" />
+        <entry key="unimplemented_music_service_server" value="UnimplementedMusicServiceServer" />
+        <entry key="user_api_logic" value="User_apiLogic" />
+        <entry key="user_rpc_logic" value="User_rpcLogic" />
+        <entry key="viper_data" value="ViperData" />
+        <entry key="x" value="x" />
       </map>
     </option>
-    <option name="lastTimeChecked" value="1753864910885" />
+    <option name="lastTimeChecked" value="1753960433376" />
   </component>
 </project>
